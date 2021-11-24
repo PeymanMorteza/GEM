@@ -5,7 +5,7 @@ This repository contains the code for *Provable guarantees for undrestanding out
 
 ![Alt text](main_teaser.png "OOD detection")
 
-### Experimental Result on CIFAR-10
+## Experimental Result on CIFAR-10
 
 
 | Model name         |     FPR95       |  AUROC  |  AUPR  |
@@ -16,7 +16,7 @@ This repository contains the code for *Provable guarantees for undrestanding out
 | Energy score  |     33.01      |  91.88 |  97.83  |
 | GEM (ours)    |     37.21      |  93.23 |  98.47  |
 
-### Experimental Result on CIFAR-100
+## Experimental Result on CIFAR-100
 
 | Model name         |     FPR95       |  AUROC  |  AUPR  |
 | ------------------ |---------------- | --------| ------ |  
