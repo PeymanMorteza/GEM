@@ -1,17 +1,3 @@
-<style>
-.heatMap {
-    width: 70%;
-    text-align: center;
-}
-.heatMap th {
-background: grey;
-word-wrap: break-word;
-text-align: center;
-}
-.heatMap tr:nth-child(1) { background: red; }
-.heatMap tr:nth-child(2) { background: orange; }
-.heatMap tr:nth-child(3) { background: green; }
-</style>
 
 # GEM : GMM based Energy Measurement
 
@@ -19,7 +5,7 @@ This repository contains the code for *Provable guarantees for undrestanding out
 
 ![Alt text](main_teaser.png "OOD detection")
 
-### Experimental Result
+### Experimental Result on CIFAR-10
 
 | Model name         |     FPR95       |  AUROC  |  AUPR  |
 | ------------------ |---------------- | --------| ------ |  
