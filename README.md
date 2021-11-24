@@ -1,3 +1,18 @@
+<style>
+.heatMap {
+    width: 70%;
+    text-align: center;
+}
+.heatMap th {
+background: grey;
+word-wrap: break-word;
+text-align: center;
+}
+.heatMap tr:nth-child(1) { background: red; }
+.heatMap tr:nth-child(2) { background: orange; }
+.heatMap tr:nth-child(3) { background: green; }
+</style>
+
 # GEM : GMM based Energy Measurement
 
 This repository contains the code for *Provable guarantees for undrestanding out-of-distribution Detection* by *Peyman Morteza* and *Sharon Yixuan Li*. Substantial part of this codebase is based on [*Energy-based Out-of-distribution Detection (Energy OOD)*](https://github.com/wetliu/energy_ood). 
