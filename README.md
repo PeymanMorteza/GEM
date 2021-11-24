@@ -18,7 +18,6 @@ This repository contains the code for *Provable guarantees for undrestanding out
 
 ### Experimental Result on CIFAR-100
 
-
 | Model name         |     FPR95       |  AUROC  |  AUPR  |
 | ------------------ |---------------- | --------| ------ |  
 | Softmax score |     80.41      |  75.53 |  93.93  |  
