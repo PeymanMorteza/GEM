@@ -7,7 +7,7 @@ This repository contains the code for **Provable guarantees for undrestanding ou
 
 ## Required datasets
 * [CIFAR-10](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) and [CIFAR-100](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) are used as ID data.
-* [Textures](), [SVHN](), [Places365](), [LSUN-Crop](), [LSUN-Resize](),and [iSUN]() are used as OOD data.
+* [Textures](https://ieeexplore.ieee.org/document/6909856), [SVHN](https://research.google/pubs/pub37648/), [Places365](https://ieeexplore.ieee.org/document/7968387), [LSUN-Crop](https://dblp.org/rec/journals/corr/YuZSSX15.html), [LSUN-Resize](https://dblp.org/rec/journals/corr/YuZSSX15.html),and [iSUN](https://arxiv.org/abs/1504.06755) are used as OOD data.
 
 ## GEM-score computation 
 * Download the required data sets into ``./data/``.
