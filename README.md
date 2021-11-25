@@ -5,6 +5,9 @@ This repository contains the code for **Provable guarantees for undrestanding ou
 
 ![Alt text](img/main_teaser.png "OOD detection")
 
+## How to obtain GEM score?
+
+### First, please download the required data sets into ``\data\`` folder. 
 ## Experimental Result on CIFAR-10
 
 
