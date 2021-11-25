@@ -5,8 +5,11 @@ This repository contains the code for **Provable guarantees for undrestanding ou
 
 ![Alt text](img/main_teaser.png "OOD detection")
 
-## How to obtain GEM score?
+## Required datasets:
+* CIFAR-10 and CIFAR-100 are used as in-distribution data.
+* Textures, SVHN, Places365, LSUN-Crop, LSUN-Resize,and iSUN are used as OOD data.
 
+## How to obtain GEM score?
 * Please download the required data sets into ``./data/``.
 * Run the following to see performance of GEM method on OOD data using a WideResNet pretrained on CIFAR-10:
 ```
