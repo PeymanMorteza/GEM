@@ -7,7 +7,18 @@ This repository contains the code for **Provable guarantees for undrestanding ou
 
 ## How to obtain GEM score?
 
-### First, please download the required data sets into ``\data\`` folder. 
+* Please download the required data sets into ``./data/``.
+* Run 
+```
+bash run.sh GEM 0
+```
+to see the performance of GEM on OOD datasets using a Wide ResNet pretrained on CIFAR-10. 
+* Run 
+```
+bash run.sh GEM 1
+```
+to see the performance of GEM on OOD datasets using a Wide ResNet pretrained on CIFAR-100. 
+
 ## Experimental Result on CIFAR-10
 
 
