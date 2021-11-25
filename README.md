@@ -6,8 +6,8 @@ This repository contains the code for **Provable guarantees for undrestanding ou
 ![Alt text](img/main_teaser.png "OOD detection")
 
 ## Required datasets
-* CIFAR-10 and CIFAR-100 are used as ID data.
-* Textures, SVHN, Places365, LSUN-Crop, LSUN-Resize,and iSUN are used as OOD data.
+* [CIFAR-10](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) and [CIFAR-100](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) are used as ID data.
+* [Textures](), [SVHN](), [Places365](), [LSUN-Crop](), [LSUN-Resize](),and [iSUN]() are used as OOD data.
 
 ## GEM-score computation 
 * Download the required data sets into ``./data/``.
@@ -24,10 +24,10 @@ bash run.sh GEM 1
 
 | Model name         |     FPR95       |  AUROC  |  AUPR  |
 | ------------------ |---------------- | --------| ------ |  
-| Softmax score |     51.04      |  90.90 |  97.92  |  
-| ODIN          |     35.71      |  91.09 |  97.62  |
-| Mahalanobis   |     36.96      |  93.24 |  98.47  |
-| Energy score  |     33.01      |  91.88 |  97.83  |
+| [Softmax score]() |     51.04      |  90.90 |  97.92  |  
+| [ODIN]()          |     35.71      |  91.09 |  97.62  |
+| [Mahalanobis]()   |     36.96      |  93.24 |  98.47  |
+| [Energy score]()  |     33.01      |  91.88 |  97.83  |
 | GEM (ours)    |     37.21      |  93.23 |  98.47  |
 
 
@@ -35,10 +35,10 @@ bash run.sh GEM 1
 
 | Model name         |     FPR95       |  AUROC  |  AUPR  |
 | ------------------ |---------------- | --------| ------ |  
-| Softmax score |     80.41      |  75.53 |  93.93  |  
-| ODIN          |     74.64      |  77.43 |  94.23  |
-| Mahalanobis   |     57.01      |  82.70 |  95.68  |
-| Energy score  |     73.60      |  79.56 |  94.87  |
+| [Softmax score]() |     80.41      |  75.53 |  93.93  |  
+| [ODIN]()          |     74.64      |  77.43 |  94.23  |
+| [Mahalanobis]()   |     57.01      |  82.70 |  95.68  |
+| [Energy score]()  |     73.60      |  79.56 |  94.87  |
 | GEM (ours)    |     57.03      |  82.67 |  95.66  |
 
 ## Citation
