@@ -44,8 +44,8 @@ bash run.sh GEM 1
 ## Citation
 
 @article{??,
-      title={GEM},
-      author={Morteza, Peyman and Li, Yixuan},
-      journal={??},
-      year={2021}
- } 
+title={GEM},
+author={Morteza, Peyman and Li, Yixuan},
+journal={??},
+year={2021}
+} 
