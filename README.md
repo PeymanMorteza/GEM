@@ -11,11 +11,11 @@ This repository contains the code for **Provable guarantees for undrestanding ou
 
 ## GEM-score computation 
 * Download the required data sets into ``./data/``.
-* Run the following to see performance of GEM method on OOD data using a WideResNet pretrained on CIFAR-10:
+* Run the following to see performance of GEM method on OOD data using a WideResNet architecture pretrained on CIFAR-10:
 ```
 bash run.sh GEM 0
 ```
-* Run the following to see performance of GEM method on OOD data using a WideResNet pretrained on CIFAR-100:
+* Run the following to see performance of GEM method on OOD data using a WideResNet architecture pretrained on CIFAR-100:
 ```
 bash run.sh GEM 1
 ```
