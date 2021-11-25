@@ -1,1 +1,1 @@
-should contain OOD data.
+datasets goes into this folder.
