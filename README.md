@@ -3,7 +3,7 @@
 
 This repository contains the code for **Provable guarantees for undrestanding out-of-distribution Detection** by *Peyman Morteza* and *Sharon Yixuan Li*. Major part of this codebase is based on [Energy-OOD](https://github.com/wetliu/energy_ood) and [Outlier-Exposure](https://github.com/hendrycks/outlier-exposure). 
 
-![Alt text](main_teaser.png "OOD detection")
+![Alt text](img/main_teaser.png "OOD detection")
 
 ## Experimental Result on CIFAR-10
 
