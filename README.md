@@ -22,7 +22,6 @@ bash run.sh GEM 1
 
 ## Experimental Result on CIFAR-10
 
-
 | Model name         |     FPR95       |  AUROC  |  AUPR  |
 | ------------------ |---------------- | --------| ------ |  
 | Softmax score |     51.04      |  90.90 |  97.92  |  
@@ -34,7 +33,6 @@ bash run.sh GEM 1
 
 ## Experimental Result on CIFAR-100
 
-
 | Model name         |     FPR95       |  AUROC  |  AUPR  |
 | ------------------ |---------------- | --------| ------ |  
 | Softmax score |     80.41      |  75.53 |  93.93  |  
@@ -43,3 +41,11 @@ bash run.sh GEM 1
 | Energy score  |     73.60      |  79.56 |  94.87  |
 | GEM (ours)    |     57.03      |  82.67 |  95.66  |
 
+## Citation
+
+@article{,
+      title={GEM},
+      author={Morteza, Peyman and Li, Yixuan},
+      journal={},
+      year={2021}
+ } 
