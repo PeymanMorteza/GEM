@@ -10,7 +10,7 @@ This repository contains the code for **Provable guarantees for undrestanding ou
 * Textures, SVHN, Places365, LSUN-Crop, LSUN-Resize,and iSUN are used as OOD data.
 
 ## GEM-score computation 
-* Please download the required data sets into ``./data/``.
+* Download the required data sets into ``./data/``.
 * Run the following to see performance of GEM method on OOD data using a WideResNet pretrained on CIFAR-10:
 ```
 bash run.sh GEM 0
