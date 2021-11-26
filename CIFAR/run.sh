@@ -33,7 +33,7 @@ elif [ "$1" = "GEM" ]; then
     for dm in ${data_models[$2]}; do
         for method in ${methods[0]}; do
             for noise in 0.0; do
-                echo "-----------"${dm}_${method}_M_noise_${noise}"-----------------"
+                echo "-----------"${dm}_${method}_GEM_noise_${noise}"-----------------"
                 CUDA_VISIBLE_DEVICES=$gpu python3 test.py --method_name ${dm}_${method} --num_to_avg 10 --score GEM --noise $noise -v
             done
         done
