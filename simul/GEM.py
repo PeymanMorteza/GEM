@@ -1,5 +1,5 @@
 """
-This module gives simple implementation of GEM under GMM.
+This module can be used for OOD simulation under GMM.
 """
 
 import numpy as np
