@@ -86,7 +86,7 @@ def ODIN(inputs, outputs, model, temper, noiseMagnitude1):
 def get_GEM_Mahalanobis_score(model, test_loader, num_classes, sample_mean, precision, layer_index, magnitude, num_batches, in_dist=False,GEM=0):
     '''
     If GEM!=1 then computes the proposed Mahalanobis confidence score on input dataset
-    If FEM=1 then computes the GEM score on input dataset
+    If GEM=1 then computes the GEM score on input dataset
     return: GEM or Mahalanobis score from layer_index
     '''
     model.eval()
