@@ -85,8 +85,9 @@ def ODIN(inputs, outputs, model, temper, noiseMagnitude1):
 #PEYMAN
 def get_GEM_Mahalanobis_score(model, test_loader, num_classes, sample_mean, precision, layer_index, magnitude, num_batches, in_dist=False,GEM=0):
     '''
-    Compute the proposed Mahalanobis confidence score on input dataset
-    return: Mahalanobis score from layer_index
+    If GEM!=1 then computes the proposed Mahalanobis confidence score on input dataset
+    If FEM=1 then computes the GEM score on input dataset
+    return: GEM or Mahalanobis score from layer_index
     '''
     model.eval()
     Mahalanobis = []
@@ -152,7 +153,7 @@ def get_GEM_Mahalanobis_score(model, test_loader, num_classes, sample_mean, prec
         M_dist.append(my_data)
 
         #PEYMAN
-        if (GEM==0):
+        if (GEM==1):
             noise_gaussian_score=torch.logsumexp(noise_gaussian_score, dim=1)
         else:
             noise_gaussian_score,_=torch.max(noise_gaussian_score, dim=1)
@@ -183,8 +184,8 @@ def sample_estimator(model, num_classes, feature_list, train_loader):
     
     for data, target in train_loader:
         total += data.size(0)
-        #data = data.cuda() ##PEYMAN
-        data=data.cpu()
+        data = data.cuda() ##PEYMAN
+        #data=data.cpu()
         data = Variable(data, volatile=True)
         output, out_features = model.feature_list(data)
         
