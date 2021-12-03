@@ -47,6 +47,6 @@ bash run.sh GEM 1
     @article{morteza2021provable,
             title={Provable Guarantees for Understanding Out-of-distribution Detection},
             author={Morteza, Peyman and Li, Yixuan},
-            journal={AAAI 2022},
+            journal={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
             year={2021}
             } 
