@@ -47,6 +47,6 @@ bash run.sh GEM 1
     @article{??,
             title={GEM},
             author={Morteza, Peyman and Li, Yixuan},
-            journal={??},
+            journal={AAAI 2022},
             year={2021}
             } 
