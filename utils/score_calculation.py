@@ -130,7 +130,8 @@ def get_GEM_Mahalanobis_score(model, test_loader, num_classes, sample_mean, prec
         gradient.index_copy_(1, torch.LongTensor([1]).cuda(), gradient.index_select(1, torch.LongTensor([1]).cuda()) / (62.1/255.0))
         gradient.index_copy_(1, torch.LongTensor([2]).cuda(), gradient.index_select(1, torch.LongTensor([2]).cuda()) / (66.7/255.0))
         
-        tempInputs = torch.add(data.data, -magnitude, gradient)
+        #tempInputs = torch.add(data.data, -magnitude, gradient) #The useage is depreciated
+        tempInputs = torch.add(data.data, gradient, alpha=-magnitude)
         with torch.no_grad():
             noise_out_features = model.intermediate_forward(tempInputs, layer_index)
         noise_out_features = noise_out_features.view(noise_out_features.size(0), noise_out_features.size(1), -1)
@@ -186,7 +187,7 @@ def sample_estimator(model, num_classes, feature_list, train_loader):
         total += data.size(0)
         data = data.cuda() ##PEYMAN
         #data=data.cpu()
-        data = Variable(data, volatile=True)
+        #data = Variable(data, volatile=True) ##PEYMAN :volatile has no effect 
         output, out_features = model.feature_list(data)
         
         # get hidden features
