@@ -1,7 +1,7 @@
 
 # GEM : GMM based Energy Measurement
 
-This repository contains the code for **Provable guarantees for undrestanding out-of-distribution Detection** by *Peyman Morteza* and *Sharon Yixuan Li*. Substantial part of this codebase is based on [Energy-OOD](https://github.com/wetliu/energy_ood).
+This repository contains the code for **[Provable guarantees for undrestanding out-of-distribution Detection](https://arxiv.org/abs/2112.00787)** by *Peyman Morteza* and *Sharon Yixuan Li*. Substantial part of this codebase is based on [Energy-OOD](https://github.com/wetliu/energy_ood).
 
 
 ![Alt text](img/main_teaser.png "OOD detection")
