@@ -45,7 +45,7 @@ bash run.sh GEM 1
 ## Citation
 
     @article{morteza2021provable,
-            title={GEM},
+            title={Provable Guarantees for Understanding Out-of-distribution Detection},
             author={Morteza, Peyman and Li, Yixuan},
             journal={AAAI 2022},
             year={2021}
